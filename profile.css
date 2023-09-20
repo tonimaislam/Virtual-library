@@ -1,0 +1,66 @@
+* {
+    margin-top: 20px;
+    background-color: rgb(221, 216, 216);
+}
+
+
+.main {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, .5)50%, rgba(0, 0, 0, .5)50%), url(library.jpg); */
+}
+
+.topbar {
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding: auto;
+    overflow: hidden;
+    background-color: rgb(11, 129, 123);
+
+}
+
+.topbar a {
+    float: right;
+    color: rgb(11, 129, 123);
+    ;
+    text-align: center;
+    padding: 16px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.sidebar a {
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1 {
+    background-color: rgb(221, 216, 216);
+}
+
+.content {
+    background-color: whitesmoke;
+}
+
+.w1 {
+    background-color: black;
+}
+
+.mt-3 h3 {
+    background-color: black;
+    color: white;
+}
+
+.w2 {
+    background-color: rgb(221, 216, 216);
+}

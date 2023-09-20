@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.main {
+    width: 100%;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.267)50%, rgba(0, 0, 0, 0.959)50%), url(library.jpg); */
+    background: url(library.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar {
+    margin-top: 4%;
+    height: 75px;
+    width: 1200px;
+    margin: auto;
+    /* margin-bottom: 5%; */
+}
+
+.logo {
+    height: 17vh;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo a img {
+    width: 300px;
+    position: left;
+    margin-left: 20px;
+}
+
+
+
+.manue {
+    /* margin-top: 5%; */
+    height: 70px;
+    width: 400px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+    display: inline-block;
+    position: inherit;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+}
+
+ul li a:hover {
+    color: rgb(69, 231, 69);
+    background-color: #17174b;
+}
+
+.entry {
+    float: right;
+    font-size: 10px;
+}
+
+.sub-manue-1{
+    display: none;
+}
+
+.manue ul li:hover .sub-manue-1{
+    display: block;
+    position: absolute;
+    background:  #17174b;
+    margin-top: 26px;
+    margin-left: -28px;
+    /* margin-right: 20px; */
+}
+.manue ul li:hover .sub-manue-1 ul{
+    /* margin-left: 0px; */
+    display: block;
+    margin: 20px;
+}
+.manue ul li:hover .sub-manue-1 ul li{
+    /* color: rgb(69, 231, 69) !important; */
+    margin-left: 0px;
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+}
+
+.container{
+    max-width: 70%;
+    margin: auto;
+    float: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, .5)50%, rgba(0, 0, 0, .5)50%), url(library.jpg);
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 2px;
+    text-align: center;
+}
